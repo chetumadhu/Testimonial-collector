@@ -1,0 +1,15 @@
+{
+  "name": "testimonial-collector-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testimonial & Social Proof Collector (Senja / Testimonial.to Alternative)",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "start": "npm run start --prefix server",
+    "seed": "node server/seed.js",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
