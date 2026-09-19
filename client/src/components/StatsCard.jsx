@@ -1,7 +1,7 @@
 import React from 'react';
 import { StarRating } from './StarRating';
 import { Card } from './ui/Card';
-import { Star, MessageSquareCheck, Award } from 'lucide-react';
+import { Star, Award } from 'lucide-react';
 
 export const StatsCard = ({ analytics, spaceName }) => {
   if (!analytics) return null;
